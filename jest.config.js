@@ -1,13 +1,11 @@
-/**
- * For a detailed explanation regarding each configuration property, visit:
- * https://jestjs.io/docs/configuration
- */
-
-/** @type {import('jest').Config} */
-const config = {
-  coverageProvider: "v8",
+export default {
+  collectCoverage: true,
+  coverageReporters: ["lcov", "text"],
+  coverageDirectory: "coverage",
+  collectCoverageFrom: ["src/**/*.js"],
+  coveragePathIgnorePatterns: ["/node_modules/"],
   testEnvironment: "node",
-  transform: { "^.+\\.jsx?$": "babel-jest" },
+  transform: {
+    "^.+\\.js$": "babel-jest",
+  },
 };
-
-export default config;
