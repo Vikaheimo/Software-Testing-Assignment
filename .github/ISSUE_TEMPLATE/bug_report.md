@@ -1,14 +1,11 @@
 ---
 name: Bug report
 about: Create an issue to help us improve.
-title: "[BUG]"
-labels: ''
+title: "[Brief Description of the Bug]"
+labels: ["bug"]
 assignees: ''
 
 ---
-
-**Bug ID:** [Unique Identifier]
-**Title:** [Brief Description of the Bug]
 **Severity:** [Critical/Major/Minor/Trivial]
 **Priority:** [High/Medium/Low]
 **Description:**
