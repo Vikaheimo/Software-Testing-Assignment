@@ -1,12 +1,10 @@
-# Student template
+# COMP.SE.200 Software testing assignment
+
+[![Coverage Status](https://coveralls.io/repos/github/Vikaheimo/Software-Testing-Assignment/badge.svg?branch=main)](https://coveralls.io/github/Vikaheimo/Software-Testing-Assignment?branch=main)
 
 ## Purpose of this repository
 
-This is a project template for students participating in Software Testing course
-at Tampere University.
-
-The repository only contains the source code that is under testing, `package.json` skeleton
-and LICENSE file.
+This repository contains the completed testing assignment for the COMP.SE.200 course. The assignment includes some tests for the source code using jest, Github actions that test the code and integration with Coveralls to generate testing reports.
 
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
